@@ -8,7 +8,8 @@
   (cond
    (nil? tree) (Node. value nil nil)
    (< value element) (Node. element (insert left value) right)
-   (> value element) (Node. element left (insert right value))))
+   (> value element) (Node. element left (insert right value))
+   :else tree))
 
 (defn min-element [{:keys [element left]}]
   (if left (recur left) element))
