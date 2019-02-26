@@ -109,7 +109,7 @@
    :else tree))
 
 (def avl-insert (comp balance insert))
-(def avl-remove (comp balance remove))
+(def avl-remove (comp balance remove-element))
 (def seq->avl (partial reduce avl-insert nil))
 
 (comment

@@ -4,7 +4,7 @@ Me, implementing, copying and collecting datastructures in Clojure.
 
 
 
-## AVL
+## AVL-Tree
 
 Make a tree from a seq:
 ```
