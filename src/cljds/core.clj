@@ -1,6 +1,5 @@
 (ns cljds.core
-  "Implementation of AVL-tree inspired* by
-   https://eddmann.com/posts/avl-trees-in-clojure/")
+  "Implementation of AVL-tree")
 
 (defrecord Node [element left right])
 
