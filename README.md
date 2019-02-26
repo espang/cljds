@@ -6,10 +6,12 @@ Me, implementing, copying and collecting datastructures in Clojure.
 
 ## AVL-Tree
 
-Make a tree from a seq:
-```
-$ clj
+in ns cljds.avl
 
-user=> (require '[cljds.core :as core])
-user=> (core/seq->avl [1 2 3 4])
+## Run tests:
+
+Because I don't know better (without lein):
+
+```
+clj -C:test run-tests.clj
 ```
